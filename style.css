@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-list {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+li {
+    display: inline-flex;
+    float: left;
+    margin-right: 20px;
+}
+
+.acceuil {
+    font-weight: bold;
+    font-size: 22pt;
+}
+
+.exercices:hover, .ressources:hover, .apropos:hover {
+    color: rgb(160, 6, 6);
+    cursor: not-allowed;
+}
+
+.acceuil:hover {
+    color: rgb(160, 6, 6);
+    cursor: pointer;
+}
